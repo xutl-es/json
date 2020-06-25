@@ -1,0 +1,8 @@
+{
+	"a": true, // boolean
+	"b": "string", // string
+	"c": 1.5, // number
+	"d": null, // null,
+	"e": [1, 2, 3, 4], // array
+	"f": { "x": 1 } // object
+}

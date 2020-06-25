@@ -1,0 +1,28 @@
+{
+	"name": "@xutl/json",
+	"version": "1.0.1",
+	"description": "Commented JSON Handling",
+	"main": "src/index.js",
+	"scripts": {
+		"test": "xutltest"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/xutl-es/json.git"
+	},
+	"keywords": [
+		"XtremelyUsefulToolLibraries",
+		"JSON",
+		"Comments"
+	],
+	"author": "XUTL <dev@xutl.es>",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/xutl-es/json/issues"
+	},
+	"homepage": "https://xutl.es",
+	"devDependencies": {
+		"typescript": "^3.9.5",
+		"@xutl/defer": "~0.0.1 || ^1.0.0"
+	}
+}
