@@ -133,12 +133,12 @@ export const writeSync = (filename: string, data: any, options: StringifyOptions
 	fs.writeFileSync(filename, text);
 };
 
-const Default = {
+const Default = Object.freeze({
 	parse,
 	stringify,
 	read,
 	write,
 	readSync,
 	writeSync,
-};
+});
 export default Default;
